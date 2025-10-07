@@ -39,7 +39,7 @@ You can view it locally by:
 2. Opening the `index.html` file in your web browser  
 
 Or view it live here (once published using GitHub Pages):  
-👉 https://github.com/yourusername/my-photography-world  
+👉 https://codecrusher123.github.io/photography-portfolio/  
 
 ---
 
