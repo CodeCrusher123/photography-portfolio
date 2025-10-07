@@ -50,4 +50,4 @@ It helped me practice **basic HTML structure**, **CSS styling**, and **responsiv
 ---
 
 ## 🧑‍💻 Author
-GitHub: [yourusername](https://github.com/yourusername)
+GitHub: [CodeCrusher123](https://github.com/CodeCrusher123)
