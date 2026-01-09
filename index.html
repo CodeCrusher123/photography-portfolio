@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Capturistic Nation</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <div id="brand">
+      <span class="brand-title">Capturistic Nation</span>
+      <sub class="brand-tagline">Where Moments Become Memories</sub>
+    </div>
+    
+    <div id="nav-links-container">
+    <ul class="nav-links">
+      <li><a href="#featured-section">About</a></li>
+      <li><a href="#category-section">Categories</a> </li>
+      <li><a href="#gallery-section">Gallery</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Featured / Hero Section -->
+    <section id="featured-section">
+      <div class="hero-text">
+        <p>
+          <span>Simple, intentional observations, shaped by light and quiet moments.</span>
+        </p>
+      </div>
+
+      <div class="featured-media">
+        <img src="images/mount-fuzi.jpg" alt="Featured photograph" loading="eager"/>
+      </div>
+    </section>
+
+    <!-- Category Scroll -->
+    <section id="category-section">
+
+        <h2 class="section-heading">Browse Categories</h2>
+
+        <div class="category-scroll">
+          <div class="category-card" data-category="all">
+            <img src="images/featured-image-lake-italy.webp" alt="All category" loading="lazy" decoding="async" />
+            <h2 class="category-label">All</h2>
+          </div>
+
+          <div class="category-card" data-category="mountains">
+            <img src="images/mount-fuzi.webp" alt="Mountains" loading="lazy" decoding="async" />
+            <h2 class="category-label">Mountains</h2>
+          </div>
+
+          <div class="category-card" data-category="forests">
+            <img src="images/nature.webp" alt="Forests" loading="lazy" decoding="async" />
+            <h2 class="category-label">Forests</h2>
+          </div>
+
+          <div class="category-card" data-category="beaches">
+            <img src="images/sea-scape.webp" alt="Beaches" loading="lazy" decoding="async" />
+            <h2 class="category-label">Beaches</h2>
+          </div>
+
+          <div class="category-card" data-category="space">
+            <img src="images/saturn.webp" alt="Space" loading="lazy" decoding="async" />
+            <h2 class="category-label">Space</h2>
+          </div>
+
+          <div class="category-card" data-category="city">
+            <img src="images/city_lights.webp" alt="City" loading="lazy" decoding="async" />
+            <h2 class="category-label">City</h2>
+          </div>
+
+          <div class="category-card" data-category="abstract">
+            <img src="images/abstract-purple.webp" alt="Abstract" loading="lazy" decoding="async" />
+            <h2 class="category-label">Abstract</h2>
+          </div>
+
+          <div class="category-card" data-category="motorbike">
+            <img src="images/motorbike.webp" alt="motorbike" loading="lazy" decoding="async" />
+            <h2 class="category-label">Motorbike</h2>
+          </div>  
+        </div>
+
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery-section">
+      <h2 class="section-heading">Photo Gallery</h2>
+
+      <div class="gallery-grid">
+        <img class="photo-card" src="images/nature.webp" alt="Beautiful sunrise" 
+                                data-category="nature forests sunrise"
+                                data-caption="Soft sunrise light breaking through the quiet forest" 
+                                data-location="Canada"
+                                data-id="1"
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/city_lights.webp" alt="City lights" 
+                                data-category="city architecture"
+                                data-caption="City lights glowing as the skyline comes alive at night"
+                                data-location="Shanghai, China"
+                                data-id="2" 
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/portrait.webp" alt="Portrait" 
+                                data-category="people portrait"
+                                data-caption="A quiet portrait capturing expression and presence"
+                                data-location="Warner Bros. Studio"
+                                data-id="3" 
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/leopard.webp" alt="Leopard" 
+                                data-category="animal"
+                                data-caption="A moment of stillness from the wild's silent hunter"
+                                data-location="Kaziranga National Park, Assam, India"
+                                data-id="4" 
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/burj_khalifa.webp" alt="Burj Khalifa" 
+                                data-category="architecture city"
+                                data-caption= "Burj Khalifa rising above the city's endless ambition"
+                                data-location="Dubai, United Arab Emirates"
+                                data-id="5" 
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/rush_hour.webp" alt="Rush hour traffic" 
+                                data-category="city people"
+                                data-caption="Rush hour chaos woven into the rhythm of city life"
+                                data-location="Tokyo, Japan"
+                                data-id="6" 
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/saturn.webp" alt="Saturn" 
+                                data-category="space"
+                                data-caption="Saturn suspended in silence across the vast cosmos" 
+                                data-location="Solar System, Orion Arm, Milky Way galaxy"
+                                data-id="7"
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/mount-fuzi.webp" alt="" 
+                                data-category="mountains nature"
+                                data-caption="Mount Fuji standing calm beneath drifting clouds"
+                                data-location="Japan"
+                                data-id="8" 
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/featured-image-lake-italy.webp" alt="lake-italy" 
+                                data-category="lake seascapes beaches nature"
+                                data-caption="Reflections of calm along a serene Italian lakeside"
+                                data-location="Italy" 
+                                data-id="9"
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/sea-scape.webp" alt="" 
+                                data-category="seascapes beaches nature"
+                                data-caption="Waves stretching endlessly toward the horizon"
+                                data-location="Brahmaputra peninsula, Brahmaputra, Assam, India"
+                                data-id="10" 
+                                loading="lazy"/>
+
+        <img class="photo-card" src="images/abstract-purple.webp" alt="" 
+                                data-category="abstract"
+                                data-caption="Shades of purple flowing in abstract harmony" 
+                                data-location="3D Art, Blender App"
+                                data-id="11"
+                                loading="lazy"/>
+        
+      </div>
+
+      <div class="gallery-lightbox-wrapper">
+         <div class="lightbox-actions">
+           
+                <button class="heart-icon">
+                    <svg class="heart-icon-svg" viewBox="0 0 122.88 109.57">
+                      <path d="M65.46,19.57c-0.68,0.72-1.36,1.45-2.2,2.32l-2.31,2.41l-2.4-2.33c-0.71-0.69-1.43-1.4-2.13-2.09 c-7.42-7.3-13.01-12.8-24.52-12.95c-0.45-0.01-0.93,0-1.43,0.02c-6.44,0.23-12.38,2.6-16.72,6.65c-4.28,4-7.01,9.67-7.1,16.57 c-0.01,0.43,0,0.88,0.02,1.37c0.69,19.27,19.13,36.08,34.42,50.01c2.95,2.69,5.78,5.27,8.49,7.88l11.26,10.85l14.15-14.04 c2.28-2.26,4.86-4.73,7.62-7.37c4.69-4.5,9.91-9.49,14.77-14.52c3.49-3.61,6.8-7.24,9.61-10.73c2.76-3.42,5.02-6.67,6.47-9.57 c2.38-4.76,3.13-9.52,2.62-13.97c-0.5-4.39-2.23-8.49-4.82-11.99c-2.63-3.55-6.13-6.49-10.14-8.5C96.5,7.29,91.21,6.2,85.8,6.82 C76.47,7.9,71.5,13.17,65.46,19.57L65.46,19.57z"/>
+                    </svg>
+                </button>    
+              
+                <button id="comment-icon">
+                    <img src="icons/comment-icon.svg" alt="comment-icon-here">
+                </button>
+
+                <button id="lightbox-close-btn" aria-label="image-close-button" >
+                    <img src="icons/icons-close.svg" alt="close-button-icon">
+                </button>
+
+        </div>  
+
+          <div class="gallery-lightbox gallery-lightbox-active">
+            
+              <div id="lightbox-image-container" class="lightbox-image">
+                    <img id="lightbox-image" src="" alt="">
+              </div>
+
+             
+              <div id="lightbox-comments-section">
+                  <div class="comment-box">
+
+                      <p class="lightbox-caption">IMAGE CAPTION</p>
+                      
+                      <ul id="comments-scroll">
+                          <li><strong>John:</strong> Wow, amazing photo!</li>
+                          <li><strong>Sara:</strong> I love the lighting in the city shot.</li>
+                          <li><strong>Mark:</strong> The forest picture feels so peaceful.</li>
+                      </ul>
+
+                      <input id="add-comment" type="text" placeholder="ADD A COMMENT...">
+
+                  </div>       
+              </div>   
+
+          </div>
+
+      </div>
+
+      <div id="gallery-feedback">
+          <img id="feedback-icon" src="" alt="">
+          <p id="feedback-text"></p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer / Contact -->
+  <footer class="site-footer">
+    <section id="contact-section">
+      <h2 class="section-heading">Contact Me</h2>
+      <div id="form-author-wrapper">
+            <div id="contact-form-wrapper">  
+                <form class="contact-form">
+                    <label for="name">Your Name</label>
+                    <input id="name" type="text" placeholder="Enter your name" />
+
+                    <label for="email">Your Email</label>
+                    <input id="email" type="email" placeholder="Enter your email" />
+
+                    <label for="subject">Subject</label>
+                    <input id="subject" type="text" placeholder="Subject" />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Write your message"></textarea>
+
+                    <button type="submit">
+                        <img src="icons/done-icon.svg" alt="Send/Done">
+                    </button>
+                </form>
+            </div>
+
+            <div id="author-line-wrapper">
+                <h2 id="main-text">"Some stories don't ask to be told,
+                    they wait to be noticed"</h2>
+                <sub>Reach out if something felt familiar</sub>
+            </div>  
+      </div>  
+    </section>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+</html>
